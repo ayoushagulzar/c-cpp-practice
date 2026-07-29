@@ -8,7 +8,6 @@ This folder contains my Python fundamentals practice. It covers the core concept
 - User Input
 - Type Casting
 - Math Functions
-- Weight Converter
 - String Indexing
 - String Methods
 - Format Specifiers
@@ -18,7 +17,7 @@ This folder contains my Python fundamentals practice. It covers the core concept
 - `for` Loops
 - Nested Loops
 - Mad Libs Project
-- Timer
+- Timer (used time library and for loop)
 
 ## Purpose
 
