@@ -6,7 +6,7 @@ answer = random.randint(low,high)
 
 guesses = 0
 
-
+print("\n-------------- NUMBER GUESSING GAME --------------\n")
 while(True):
     number = int(input(f"Enter a number between {low} and {high}: "))
     guesses+=1
@@ -25,4 +25,5 @@ while(True):
         else:
             print(f"Out of range! Please select between {low} and {high}.")
             guesses+=1
-                    
+
+print("Thanks for playing!")                    
