@@ -6,5 +6,6 @@ A collection of my personal programming practice, exercises, and learning resour
 
 - C
 - C++
-
+- Python
+  
 > This repository is maintained to track my programming journey and practice.
