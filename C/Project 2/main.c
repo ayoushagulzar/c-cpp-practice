@@ -26,11 +26,11 @@ int main()
     }
     else if (player == 0 && computer == 2)
     {
-        printf("You loss!\n");
+        printf("You lose!\n");
     }
     else if (player == 1 && computer == 0)
     {
-         printf("You loss!\n");
+         printf("You lose!\n");
     }
     else if (player == 1 && computer == 1)
     {
@@ -46,7 +46,7 @@ int main()
     }
     else if (player == 2 && computer == 1)
     {
-          printf("You loss!\n");
+          printf("You lose!\n");
     }
     else if (player == 2 && computer == 2)
     {
