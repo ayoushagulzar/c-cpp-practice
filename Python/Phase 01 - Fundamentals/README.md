@@ -1,6 +1,6 @@
-# Phase 01 – Fundamentals 🐍
+# Phase 01 - Fundamentals
 
-This folder contains my Python fundamentals practice. It covers the core concepts of the language through small programs and exercises.
+This phase contains my Python fundamentals practice. It covers the core concepts of the language through small programs and exercises.
 
 ## Topics Covered
 
@@ -17,7 +17,7 @@ This folder contains my Python fundamentals practice. It covers the core concept
 - `for` Loops
 - Nested Loops
 - Mad Libs Project
-- Timer (used time library and for loop)
+- Timer
 
 ## Purpose
 
