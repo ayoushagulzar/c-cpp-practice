@@ -16,8 +16,6 @@ This phase contains my Python fundamentals practice. It covers the core concepts
 - `while` Loops
 - `for` Loops
 - Nested Loops
-- Mad Libs Project
-- Timer
 
 ## Purpose
 
