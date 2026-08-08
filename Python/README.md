@@ -12,7 +12,8 @@ Each phase focuses on a specific set of Python concepts through practical exampl
 | :-----------: | -------------- |
 | **Phase 01**  | Python Fundamentals |
 | **Phase 02**  | Collections, Functions & Intermediate Concepts |
-| **Phase 03**  | Program Structure & Practice |
+| **Phase 03**  | Program Structure |
+| **Phase 04**  | Objected-Oriented Programming |
 
 ---
 
