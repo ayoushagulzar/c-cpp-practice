@@ -25,7 +25,8 @@ Python/
 ├── README.md
 ├── Phase 01 - Fundamentals/
 ├── Phase 02 - Collections and Functions/
-└── Phase 03 - Program Structure & Practice/
+├── Phase 03 - Program Structure/
+└── Phase 04 - Object-Oriented Programming/
 ```
 
 ---
@@ -40,6 +41,12 @@ Python/
 - 🎯 Match / Case
 - 📁 Modules & Imports
 - 🔍 Scope Resolution
+- 🏗️ Classes & Objects
+- 🔒 Encapsulation & Abstraction
+- 🧬 Inheritance & Polymorphism
+- 🦆 Duck Typing
+- ⚙️ Magic Methods
+- 🎨 Properties & Decorators
 
 ---
 
@@ -64,6 +71,7 @@ Python/
 
 - Practice Python programming
 - Strengthen programming fundamentals
+- Develop a strong understanding of OOP
 - Track my learning progress
 - Build a solid foundation for advanced Python and software development
 
