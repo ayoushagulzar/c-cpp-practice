@@ -32,11 +32,6 @@ A console-based Hangman game built in Python, where the player attempts to guess
 -   Input validation
 -   `__name__ == "__main__"`
 
----
-
-## 📚 Source
-* Bro Code --- Python Full Course
-
 --- 
 
 ## 🎯 Purpose
