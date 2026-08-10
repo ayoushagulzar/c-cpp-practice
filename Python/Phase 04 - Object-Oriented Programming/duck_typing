@@ -1,0 +1,41 @@
+# Python focuses on what an object CAN DO rather than what class/type it belongs to.
+
+# In other words:
+# "If it supports the required behavior, use it."
+
+class Animal:
+    alive = True
+
+class Cat(Animal):
+    def speak(self):
+        print("Meoww!")
+
+
+class Dog(Animal):
+    def speak(self):
+        print("WOOF!")
+
+class Car():
+    def speak(self):
+        print("HONK!")        
+
+
+def make_sound(obj):
+    obj.speak()
+
+# Duck typing is runtime behavior.
+# If you pass an object that doesn't have the required method,
+# Python raises an AttributeError.
+
+# for example:
+
+#  class Car:
+#       pass
+
+# make_sound(Car()) 
+
+objects = [Cat() , Dog() , Car()]
+
+for obj in objects:
+    make_sound(obj) # Car's speak() is also called even though Car does not inherit from Animal.
+
