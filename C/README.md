@@ -2,9 +2,13 @@
 
 This folder contains my C programming journey, including lecture code, practice problems, and small projects completed while learning the language.
 
+---
+
 ## 📚 Source
 
 * CodeWithHarry – C Programming Course
+  
+---
 
 ## 📂 Folder Structure
 
@@ -18,6 +22,7 @@ C/
 ├── Project 2
 └── README.md
 ```
+---
 
 ## 🎯 Topics Covered
 
@@ -33,6 +38,8 @@ C/
 * Structures
 * File Handling
 * Dynamic Memory Allocation (DMA)
+
+---
 
 ## 🚀 Purpose
 
