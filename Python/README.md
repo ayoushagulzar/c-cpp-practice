@@ -17,10 +17,15 @@ Each phase focuses on a specific set of Python concepts through practical exampl
 Python/
 ├── .gitignore
 ├── README.md
+├── CLI-Based Projects
 ├── Phase 01 - Fundamentals/
 ├── Phase 02 - Collections and Functions/
 ├── Phase 03 - Program Structure/
-└── Phase 04 - Object-Oriented Programming/
+├── Phase 04 - Object-Oriented Programming/
+├── Phase 05 - Exception and File Handling
+├── Phase 06 -
+└── Phase 07 - 
+
 ```
 
 ---
