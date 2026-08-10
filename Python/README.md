@@ -17,8 +17,8 @@ Each phase focuses on a specific set of Python concepts through practical exampl
 Python/
 ├── .gitignore
 ├── README.md
-├── CLI-Based Projects
-├── GUI-Based Projects
+├── CLI-Based Projects/
+├── GUI-Based Projects/
 ├── Phase 01 - Fundamentals/
 ├── Phase 02 - Collections and Functions/
 ├── Phase 03 - Program Structure/
