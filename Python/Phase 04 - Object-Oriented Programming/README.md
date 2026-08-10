@@ -1,22 +1,29 @@
-# Phase 04 - Object-Oriented Programming
+# 🏗️ Phase 04 — Object-Oriented Programming
 
-This phase contains my practice with Python's object-oriented programming concepts through examples.
+> Applying Python's object-oriented programming model to structure and design programs.
 
-## Topics Covered
+## 📚 Topics Covered
+
+### 🧱 Core OOP
 
 * Classes & Objects
 * Class Variables
 * Instance, Class & Static Methods
+
+### 🔐 OOP Principles
+
 * Encapsulation
 * Abstraction
 * Inheritance
-* Types of Inheritance
 * Polymorphism
+
+### 🐍 Python OOP Features
+
 * Duck Typing
 * Magic Methods
 * `@property`
 * Decorators
 
-## Purpose
+## 🎯 Purpose
 
-The goal of this phase is to understand Python's object-oriented programming model and learn how classes, objects, inheritance, polymorphism, encapsulation, and decorators are used to structure and design programs.
+Understand Python's object-oriented programming model and apply its core principles and features to program design.
