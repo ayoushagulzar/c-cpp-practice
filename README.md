@@ -21,7 +21,7 @@ The repository is organized by programming language, with each directory maintai
 
 ---
 
-## 📂 Languages
+## 🔤 Languages
 
 Currently included:
 
