@@ -10,16 +10,6 @@ Each phase focuses on a specific set of Python concepts through practical exampl
 * BroCode – Python Full Course
   
  --- 
-## 📚 Phase Overview
-
-|     Phase     | Topics Covered |
-| :-----------: | -------------- |
-| **Phase 01**  | Python Fundamentals |
-| **Phase 02**  | Collections, Functions & Intermediate Concepts |
-| **Phase 03**  | Program Structure |
-| **Phase 04**  | Objected-Oriented Programming |
-
----
 
 ## 📂 Directory Structure
 
