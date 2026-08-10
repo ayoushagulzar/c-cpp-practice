@@ -1,22 +1,34 @@
-# Phase 01 - Fundamentals
+# 🐍 Phase 01 — Fundamentals
 
-This phase contains my Python fundamentals practice. It covers the core concepts of the language through small programs and exercises.
+> Building the foundation of Python through core syntax and fundamental programming concepts.
 
-## Topics Covered
+## 📚 Topics Covered
 
-- Variables
-- User Input
-- Type Casting
-- Math Functions
-- String Indexing
-- String Methods
-- Format Specifiers
-- Logical Operators
-- Ternary Operator
-- `while` Loops
-- `for` Loops
-- Nested Loops
+* **Variables & Input**
 
-## Purpose
+  * Variables
+  * User Input
+  * Type Casting
 
-The goal of this phase is to build a solid understanding of Python syntax, language features, and basic programming concepts before moving on to more advanced topics.
+* **Strings & Formatting**
+
+  * String Indexing
+  * String Methods
+  * Format Specifiers
+
+* **Operators**
+
+  * Logical Operators
+  * Ternary Operator
+
+* **Control Flow**
+
+  * `while` Loops
+  * `for` Loops
+  * Nested Loops
+
+## 🎯 Purpose
+
+Build a strong foundation in Python syntax and fundamental programming concepts before progressing to more advanced topics.
+
+---
