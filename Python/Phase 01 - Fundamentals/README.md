@@ -30,5 +30,3 @@
 ## 🎯 Purpose
 
 Build a strong foundation in Python syntax and fundamental programming concepts before progressing to more advanced topics.
-
----
