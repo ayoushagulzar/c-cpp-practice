@@ -1,31 +1,32 @@
-# Phase 02 - Collections and Functions
+# 📦 Phase 02 — Collections and Functions
 
-This phase contains my practice with Python collections, functions, and intermediate language features through examples, exercises, and small programs.
+> Expanding Python fundamentals with collections, reusable functions, and intermediate language features.
 
-## Topics Covered
+## 📚 Topics Covered
 
-### Collections
+### 🗃️ Collections
 
-- Lists
-- Tuples
-- Sets
-- Dictionaries
-- 2D Collections
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+* 2D Collections
 
-### Functions
+### ⚙️ Functions
 
-- Positional Arguments
-- Keyword Arguments
-- Default Arguments
-- Arbitrary Arguments
+* Positional Arguments
+* Keyword Arguments
+* Default Arguments
+* Arbitrary Arguments
 
-### Intermediate Concepts
+### 🔹 Intermediate Concepts
 
-- Iterables
-- Membership Operators
-- List Comprehensions
-- Match / Case
+* Iterables
+* Membership Operators
+* List Comprehensions
+* Match / Case
 
-## Purpose
+## 🎯 Purpose
 
-The goal of this phase is to build a strong understanding of Python collections, reusable functions, and intermediate language features before moving on to program structure and more advanced topics.
+Develop a strong understanding of Python collections, functions, and intermediate language features.
+
