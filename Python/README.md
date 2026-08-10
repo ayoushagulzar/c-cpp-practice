@@ -5,7 +5,11 @@ This repository contains my **Python learning journey**, including practice prog
 Each phase focuses on a specific set of Python concepts through practical examples and programming exercises. Every phase directory contains its own README describing the covered topics and learning objectives.
 
 ---
+## 📚 Source
 
+* BroCode – Python Full Course
+  
+ --- 
 ## 📚 Phase Overview
 
 |     Phase     | Topics Covered |
