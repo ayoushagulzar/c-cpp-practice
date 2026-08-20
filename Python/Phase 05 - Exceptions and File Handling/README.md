@@ -1,20 +1,31 @@
 # 🗂️ Phase 05 — Exceptions & File Handling
 
-> Learning how Python programs handle errors and work with files for persistent data storage.
+> Learning how Python programs handle runtime errors and work with files for persistent data storage.
 
 ## 📚 Topics Covered
 
-### ⚠️ Exception Handling
-
 * Exception Handling
-
-### 📁 File Handling
-
+* Custom Exceptions
 * File Detection
 * Writing Files
 * Reading Files
+* `.txt`, `.json`, and `.csv` files
 
 ## 🎯 Purpose
 
-Understand how to handle runtime errors and perform basic file operations in Python.
+Build the ability to handle errors gracefully and persist structured or unstructured data using files.
+
+## 🧠 Cheat Sheet
+
+| Area                    | Key Concepts                                |
+| ----------------------- | ------------------------------------------- |
+| **Exceptions**          | `try`, `except`, `else`, `finally`, `raise` |
+| **Custom Exceptions**   | Inherit from `Exception`                    |
+| **File Detection**      | `os.path`                                   |
+| **File Modes**          | `r` · `w` · `a` · `x`                       |
+| **TXT**                 | Plain-text storage                          |
+| **JSON**                | Structured data                             |
+| **CSV**                 | Tabular data                                |
+| **Resource Management** | `with open()`                               |
+
 
