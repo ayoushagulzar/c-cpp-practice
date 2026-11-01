@@ -58,13 +58,15 @@ c-cpp-practice/
 |---------|----------|-------------|
 | [Number Guessing Game](c/projects/number-guessing-game/) | C | Guess a random number from 1 to 100 with higher/lower hints |
 | [Snake Water Gun](c/projects/snake-water-gun/) | C | Rock-paper-scissors style game against the computer |
-| [Hybrid Calculator](cpp/projects/hybrid-calculator/) | C++ | Simple + scientific calculator built with multiple inheritance |
+| [Hybrid Calculator](cpp/projects/hybrid-calculator/) | C++ | Simple and scientific calculator built with multiple inheritance |
 
 ---
 
 ## ⚙️ Compiling and Running
 
 You need a C/C++ compiler such as **GCC** (on Windows, MinGW-w64 or MSYS2).
+
+Run the following commands from the repository root:
 
 ```bash
 # C
