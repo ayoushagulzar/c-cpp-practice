@@ -43,8 +43,8 @@ c-cpp-practice/
 
 | Folder         | What's inside                                                                                              |
 | -------------- | ---------------------------------------------------------------------------------------------------------- |
-| [`c/`](c/)     | 11 chapters, each with lecture programs and a `practice-set/`, plus 2 projects                             |
-| [`cpp/`](cpp/) | Core C++, OOP (classes, constructors, inheritance, polymorphism), templates, STL, file I/O, plus 1 project |
+| [`c/`](c/)     | 11 chapters, each with lecture programs and a `practice-set/`, plus 2 mini projects                             |
+| [`cpp/`](cpp/) | Core C++, OOP (classes, constructors, inheritance, polymorphism), templates, STL, file I/O, plus 1 mini project |
 
 ---
 
