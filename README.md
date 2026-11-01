@@ -15,9 +15,9 @@
 
 ## 📖 About
 
-This repository records my journey learning **C** and **C++**. It holds the programs I wrote while following each course, the practice problems at the end of every chapter, and a few small projects where I put the concepts together.
+This repository contains my C and C++ practice, including lecture programs, chapter-wise practice problems, and a few small projects.
 
-Each language has its own folder with its own README.
+I've organized the code by language, with separate folders for C and C++. Each language folder also has its own README.
 
 ---
 
@@ -45,20 +45,20 @@ c-cpp-practice/
 └── README.md
 ```
 
-| Folder | What's inside |
-|--------|---------------|
-| [`c/`](c/) | 11 chapters, each with lecture programs and a `practice-set/`, plus 2 projects |
+| Folder         | What's inside                                                                                              |
+| -------------- | ---------------------------------------------------------------------------------------------------------- |
+| [`c/`](c/)     | 11 chapters, each with lecture programs and a `practice-set/`, plus 2 projects                             |
 | [`cpp/`](cpp/) | Core C++, OOP (classes, constructors, inheritance, polymorphism), templates, STL, file I/O, plus 1 project |
 
 ---
 
 ## 🚀 Projects
 
-| Project | Language | Description |
-|---------|----------|-------------|
-| [Number Guessing Game](c/projects/number-guessing-game/) | C | Guess a random number from 1 to 100 with higher/lower hints |
-| [Snake Water Gun](c/projects/snake-water-gun/) | C | Rock-paper-scissors style game against the computer |
-| [Hybrid Calculator](cpp/projects/hybrid-calculator/) | C++ | Simple and scientific calculator built with multiple inheritance |
+| Project                                                  | Language | Description                                                       |
+| -------------------------------------------------------- | -------- | ----------------------------------------------------------------- |
+| [Number Guessing Game](c/projects/number-guessing-game/) | C        | Guess a random number from 1 to 100 with higher/lower hints       |
+| [Snake Water Gun](c/projects/snake-water-gun/)           | C        | Rock-paper-scissors style game against the computer               |
+| [Hybrid Calculator](cpp/projects/hybrid-calculator/)     | C++      | Simple and scientific calculator built using multiple inheritance |
 
 ---
 
@@ -66,7 +66,7 @@ c-cpp-practice/
 
 You need a C/C++ compiler such as **GCC** (on Windows, MinGW-w64 or MSYS2).
 
-Run the following commands from the repository root:
+Run the commands from the repository root:
 
 ```bash
 # C
@@ -78,7 +78,7 @@ g++ cpp/basics/recursion.cpp -o recursion
 ./recursion
 ```
 
-> **Note:** Programs that read or write files (`chapter-10-file-io`, `cpp/file-io`) expect the `.txt` files in their own folder, so `cd` into that folder before running them.
+> **Note:** Programs that read or write files (`chapter-10-file-io`, `cpp/file-io`) expect the `.txt` files in their respective folders, so `cd` into the relevant folder before running them.
 
 ---
 
@@ -93,11 +93,11 @@ g++ cpp/basics/recursion.cpp -o recursion
 ## 📝 Notes
 
 - Code is organized by language, then by chapter or topic.
-- Compiled executables, object files and editor settings are excluded through [`.gitignore`](.gitignore).
-- This repository is for learning, practice and revision, so the code shows my progress over time rather than polished, production-ready solutions.
+- Compiled executables, object files, and editor settings are excluded through [`.gitignore`](.gitignore).
+- This repository is mainly for learning, practice, and revision. The code reflects what I've learned and practiced along the way, so not everything is meant to be production-ready.
 
 ---
 
 <p align="center">
-  <i>Maintained as part of my continuous programming and software engineering learning journey.</i>
+  <i>Maintained as part of my programming practice and learning journey.</i>
 </p>
