@@ -1,10 +1,6 @@
 # 💻 C/C++ Practice
 
 <p align="center">
-  <strong>My C and C++ practice: lecture code, practice sets and small projects, organized by topic.</strong>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/PURPOSE-PROGRAMMING%20PRACTICE-3BA9F5?style=for-the-badge&labelColor=2A3142">
   <img src="https://img.shields.io/badge/LANGUAGES-C%20%7C%20C%2B%2B-7057E8?style=for-the-badge&labelColor=2A3142">
   <img src="https://img.shields.io/badge/FOCUS-PROBLEM%20SOLVING-D63384?style=for-the-badge&labelColor=2A3142">
@@ -52,7 +48,7 @@ c-cpp-practice/
 
 ---
 
-## 🚀 Projects
+## 🚀 Mini Projects
 
 | Project                                                  | Language | Description                                                       |
 | -------------------------------------------------------- | -------- | ----------------------------------------------------------------- |
@@ -93,8 +89,7 @@ g++ cpp/basics/recursion.cpp -o recursion
 ## 📝 Notes
 
 - Code is organized by language, then by chapter or topic.
-- Compiled executables, object files, and editor settings are excluded through [`.gitignore`](.gitignore).
-- This repository is mainly for learning, practice, and revision. The code reflects what I've learned and practiced along the way, so not everything is meant to be production-ready.
+- Compiled executables, object files, and editor settings are excluded through [`.gitignore`](.gitignore). 
 
 ---
 
