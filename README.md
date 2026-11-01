@@ -1,12 +1,12 @@
-# 💻 Programming Practice
+# 💻 C/C++ Practice
 
 <p align="center">
-  <strong>A collection of my programming practice, exercises, and projects across multiple programming languages.</strong>
+  <strong>My C and C++ practice: lecture code, practice sets and small projects, organized by topic.</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PURPOSE-PROGRAMMING%20PRACTICE-3BA9F5?style=for-the-badge&labelColor=2A3142">
-  <img src="https://img.shields.io/badge/LANGUAGES-C%20%7C%20C%2B%2B%20%7C%20PYTHON-7057E8?style=for-the-badge&labelColor=2A3142">
+  <img src="https://img.shields.io/badge/LANGUAGES-C%20%7C%20C%2B%2B-7057E8?style=for-the-badge&labelColor=2A3142">
   <img src="https://img.shields.io/badge/FOCUS-PROBLEM%20SOLVING-D63384?style=for-the-badge&labelColor=2A3142">
   <img src="https://img.shields.io/badge/TOOLS-GIT%20%26%20GITHUB-E67E22?style=for-the-badge&labelColor=2A3142">
 </p>
@@ -15,66 +15,87 @@
 
 ## 📖 About
 
-This repository documents my programming journey through consistent practice across multiple programming languages. It serves as a centralized collection of exercises, coding challenges, implementations, and personal projects completed while learning and strengthening core programming concepts.
+This repository records my journey learning **C** and **C++**. It holds the programs I wrote while following each course, the practice problems at the end of every chapter, and a few small projects where I put the concepts together.
 
-The repository is organized by programming language, with each directory maintaining its own documentation and project structure.
-
----
-
-## 🔤 Languages
-
-Currently included:
-
-- C
-- C++
-- Python
-
-> Additional languages will be added as I continue exploring new technologies.
+Each language has its own folder with its own README.
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-Programming-Practice/
-├── README.md
-├── C/
-├── C++/
-├── Python/
-└── ...
+c-cpp-practice/
+├── c/                          # C programming
+│   ├── chapter-01-basics/
+│   ├── chapter-02-operators/
+│   ├── ...
+│   ├── chapter-11-dynamic-memory/
+│   ├── projects/
+│   └── README.md
+├── cpp/                        # C++ and OOP
+│   ├── basics/
+│   ├── pointers/
+│   ├── oop/
+│   ├── templates/
+│   ├── stl/
+│   ├── file-io/
+│   ├── projects/
+│   └── README.md
+├── .gitignore
+└── README.md
 ```
+
+| Folder | What's inside |
+|--------|---------------|
+| [`c/`](c/) | 11 chapters, each with lecture programs and a `practice-set/`, plus 2 projects |
+| [`cpp/`](cpp/) | Core C++, OOP (classes, constructors, inheritance, polymorphism), templates, STL, file I/O, plus 1 project |
+
+---
+
+## 🚀 Projects
+
+| Project | Language | Description |
+|---------|----------|-------------|
+| [Number Guessing Game](c/projects/number-guessing-game/) | C | Guess a random number from 1 to 100 with higher/lower hints |
+| [Snake Water Gun](c/projects/snake-water-gun/) | C | Rock-paper-scissors style game against the computer |
+| [Hybrid Calculator](cpp/projects/hybrid-calculator/) | C++ | Simple + scientific calculator built with multiple inheritance |
+
+---
+
+## ⚙️ Compiling and Running
+
+You need a C/C++ compiler such as **GCC** (on Windows, MinGW-w64 or MSYS2).
+
+```bash
+# C
+gcc c/chapter-01-basics/hello.c -o hello
+./hello
+
+# C++
+g++ cpp/basics/recursion.cpp -o recursion
+./recursion
+```
+
+> **Note:** Programs that read or write files (`chapter-10-file-io`, `cpp/file-io`) expect the `.txt` files in their own folder, so `cd` into that folder before running them.
 
 ---
 
 ## 🛠️ Tools
 
 - Visual Studio Code
-- Git
-- GitHub
+- GCC / G++
+- Git & GitHub
 
 ---
 
 ## 📝 Notes
 
-- Source code is organized by programming language.
-- Generated files, executables, and IDE-specific files are excluded using **.gitignore**.
-- This repository is maintained for learning, practice, and revision.
-
----
-
-## 📌 Repository Information
-
-| Field | Information |
-|-------|-------------|
-| **Repository Type** | Personal Learning Repository |
-| **Purpose** | Programming Practice |
-| **Languages** | Multiple |
+- Code is organized by language, then by chapter or topic.
+- Compiled executables, object files and editor settings are excluded through [`.gitignore`](.gitignore).
+- This repository is for learning, practice and revision, so the code shows my progress over time rather than polished, production-ready solutions.
 
 ---
 
 <p align="center">
   <i>Maintained as part of my continuous programming and software engineering learning journey.</i>
 </p>
-
-
-

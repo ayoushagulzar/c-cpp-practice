@@ -1,0 +1,72 @@
+# =========================================================
+# .gitignore for C / C++ practice
+# =========================================================
+
+# ============== Compiled output =================
+*.exe
+*.out
+a.out
+*.o
+*.obj
+*.ko
+*.elf
+*.app
+
+# ================ Libraries =====================
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# =============== Precompiled headers ===============
+*.gch
+*.pch
+
+# ================= Debug files ==================
+*.dSYM/
+*.pdb
+*.ilk
+*.idb
+*.su
+*.dwo
+core
+core.*
+
+# ============== Build folders =================
+build/
+bin/
+obj/
+output/
+Debug/
+Release/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# ============== VS Code / Code Runner ===============
+tempCodeRunnerFile.*
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ================= Other IDEs ==================
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+*.code-workspace
+
+# ============== Operating system files ==============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============== Temporary files =================
+*.tmp
+*.bak
