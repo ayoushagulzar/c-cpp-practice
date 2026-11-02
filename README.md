@@ -29,12 +29,10 @@ c-cpp-practice/
 │   ├── projects/
 │   └── README.md
 ├── cpp/                        # C++ programming
-│   ├── basics/
-│   ├── pointers/
-│   ├── oop/
-│   ├── templates/
-│   ├── stl/
-│   ├── file-io/
+│   ├── chapter-01-basics/
+│   ├── chapter-02-classes-objects/
+│   ├── ...
+│   ├── chapter-09-stl/
 │   ├── projects/
 │   └── README.md
 ├── .gitignore
