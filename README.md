@@ -64,15 +64,15 @@ Run the commands from the repository root:
 
 ```bash
 # C
-gcc c/chapter-01-basics/hello.c -o hello
+gcc c/chapter-01-basics/hello_world.c -o hello
 ./hello
 
 # C++
-g++ cpp/basics/recursion.cpp -o recursion
+g++ cpp/chapter-01-basics/recursion_factorial.cpp -o recursion
 ./recursion
 ```
 
-> **Note:** Programs that read or write files (`chapter-10-file-io`, `cpp/file-io`) expect their `.txt` files in their respective folders. Run these programs from the relevant directory.
+> **Note:** Programs that read or write files (`c/chapter-10-file-io`, `cpp/chapter-07-file-io`) expect their `.txt` files in their respective folders. Run these programs from the relevant directory.
 
 ---
 
