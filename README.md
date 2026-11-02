@@ -11,9 +11,9 @@
 
 ## 📖 About
 
-This repository contains my C and C++ practice, including lecture programs, chapter-wise practice problems, and a few small projects.
+This repository contains my C and C++ learning and practice: programs written while following tutorials, solutions to practice problems, and a few small projects.
 
-I've organized the code by language, with separate folders for C and C++. Each language folder also has its own README.
+The code is organized by language, with separate folders for C and C++. Each language folder also has its own README.
 
 ---
 
@@ -28,7 +28,7 @@ c-cpp-practice/
 │   ├── chapter-11-dynamic-memory/
 │   ├── projects/
 │   └── README.md
-├── cpp/                        # C++ and OOP
+├── cpp/                        # C++ programming
 │   ├── basics/
 │   ├── pointers/
 │   ├── oop/
@@ -41,10 +41,10 @@ c-cpp-practice/
 └── README.md
 ```
 
-| Folder         | What's inside                                                                                              |
-| -------------- | ---------------------------------------------------------------------------------------------------------- |
-| [`c/`](c/)     | 11 chapters, each with lecture programs and a `practice-set/`, plus 2 mini projects                             |
-| [`cpp/`](cpp/) | Core C++, OOP (classes, constructors, inheritance, polymorphism), templates, STL, file I/O, plus 1 mini project |
+| Folder         | What's inside                                                            |
+| -------------- | ------------------------------------------------------------------------ |
+| [`c/`](c/)     | 11 chapters with lesson programs and practice sets, plus 2 mini projects |
+| [`cpp/`](cpp/) | Core C++, pointers, OOP, templates, STL, file I/O, and 1 mini project    |
 
 ---
 
@@ -74,7 +74,7 @@ g++ cpp/basics/recursion.cpp -o recursion
 ./recursion
 ```
 
-> **Note:** Programs that read or write files (`chapter-10-file-io`, `cpp/file-io`) expect the `.txt` files in their respective folders, so `cd` into the relevant folder before running them.
+> **Note:** Programs that read or write files (`chapter-10-file-io`, `cpp/file-io`) expect their `.txt` files in their respective folders. Run these programs from the relevant directory.
 
 ---
 
@@ -89,9 +89,13 @@ g++ cpp/basics/recursion.cpp -o recursion
 ## 📝 Notes
 
 - Code is organized by language, then by chapter or topic.
-- Compiled executables, object files, and editor settings are excluded through [`.gitignore`](.gitignore). 
+- Compiled executables, object files, and editor settings are excluded through [`.gitignore`](.gitignore).
 
 ---
+
+## 📚 Source
+
+I learned from [CodeWithHarry's C Programming Course](https://www.youtube.com/watch?v=aZb0iu4uGwA) and his C++ tutorials.
 
 <p align="center">
   <i>Maintained as part of my programming practice and learning journey.</i>
