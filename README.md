@@ -95,7 +95,7 @@ g++ cpp/basics/recursion.cpp -o recursion
 
 ## 📚 Source
 
-I learned from [CodeWithHarry]\([https://www.youtube.com/@CodeWithHarry])'s C and C++ courses.
+I learned from [CodeWithHarry](https://www.youtube.com/@CodeWithHarry)'s C and C++ courses.
 
 <p align="center">
   <i>Maintained as part of my programming practice and learning journey.</i>
