@@ -1,6 +1,6 @@
 # C Programming
 
-My C practice: the code I wrote while following the [CodeWithHarry](https://www.youtube.com/@CodeWithHarry) C course, plus my solutions to each chapter's practice set.
+My C practice: the code I wrote while following the [CodeWithHarry C Programming Course](https://www.youtube.com/watch?v=aZb0iu4uGwA) C course, plus my solutions to each chapter's practice set.
 
 ## Chapters
 
