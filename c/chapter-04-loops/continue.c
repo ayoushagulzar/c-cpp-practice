@@ -1,3 +1,6 @@
+// Topic: continue statement
+// Skips only the iteration where i is 4, then keeps looping.
+
 #include<stdio.h>
 int main()
 {

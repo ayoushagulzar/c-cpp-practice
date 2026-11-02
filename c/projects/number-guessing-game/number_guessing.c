@@ -1,3 +1,7 @@
+// Project: Number guessing game
+// The computer picks a random number from 1 to 100. You guess, it tells you
+// higher or lower, and counts your guesses.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -12,19 +16,19 @@ int main() {
     int guessed;
 do
 {
-    printf("Guess the number");
+    printf("Guess the number (1-100): ");
     scanf("%d",&guessed);
     if (guessed>random_number)
     {
        printf("Lower number please!\n");
     }
-    else
+    else if (guessed<random_number)
     {
         printf("Higher number please!\n");
     }
     no_of_guesses++;
      } while (guessed!=random_number);
-     printf("You guess the number in %d guesses",no_of_guesses);
+     printf("You guessed the number in %d guesses\n",no_of_guesses);
 
     return 0;
 }

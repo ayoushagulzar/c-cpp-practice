@@ -1,3 +1,6 @@
+// Topic: break statement
+// Exits the loop completely when i reaches 4.
+
 #include<stdio.h>
 int main()
 {

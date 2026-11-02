@@ -1,3 +1,6 @@
+// Topic: if-else
+// Prints pass or fail depending on marks.
+
 #include<stdio.h>
 int main()
 {

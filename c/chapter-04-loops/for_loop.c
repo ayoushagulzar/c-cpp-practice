@@ -1,3 +1,6 @@
+// Topic: for loop
+// Prints the numbers from 5 to 7 using a for loop.
+
 #include<stdio.h>
 int main()
 {

@@ -1,48 +1,35 @@
 # C Programming
 
-This folder contains my C programming journey, including lecture code, practice problems, and small projects completed while learning the language.
+My C practice: the code I wrote while following the [CodeWithHarry](https://www.youtube.com/@CodeWithHarry) C course, plus my solutions to each chapter's practice set.
 
----
+## Chapters
 
-## 📚 Source
+| Chapter                                                       | Topics                                               |
+| ------------------------------------------------------------- | ---------------------------------------------------- |
+| [01 - Basics](chapter-01-basics/)                             | printf, scanf, variables, data types                 |
+| [02 - Operators](chapter-02-operators/)                       | arithmetic operators, modulus, precedence            |
+| [03 - Conditionals](chapter-03-conditionals/)                 | if-else, else-if, switch, logical operators, ternary |
+| [04 - Loops](chapter-04-loops/)                               | while, do-while, for, break, continue                |
+| [05 - Functions & Recursion](chapter-05-functions-recursion/) | functions, call by value, recursion                  |
+| [06 - Pointers](chapter-06-pointers/)                         | pointers, pointer to pointer, call by reference      |
+| [07 - Arrays](chapter-07-arrays/)                             | 1D/2D arrays, arrays and pointers                    |
+| [08 - Strings](chapter-08-strings/)                           | strings, fgets, puts, string.h functions             |
+| [09 - Structures](chapter-09-structures/)                     | struct, arrays of structs, typedef                   |
+| [10 - File I/O](chapter-10-file-io/)                          | fopen, fscanf, fprintf, fgetc                        |
+| [11 - Dynamic Memory](chapter-11-dynamic-memory/)             | malloc, calloc, realloc, free                        |
 
-* CodeWithHarry – C Programming Course
-  
----
+Each chapter has:
 
-## 📂 Folder Structure
+- the **tutorial code** (files named by topic, like `for_loop.c`)
+- a **`practice-set/`** folder with numbered practice problems (`01_rectangle_area.c`, `02_...`). The question is written at the top of each file.
 
-```
-C/
-├── Chapter 1
-├── Chapter 2
-├── ...
-├── Chapter 12
-├── Project 1
-├── Project 2
-└── README.md
-```
----
+## Projects
 
-## 🎯 Topics Covered
+- [Number Guessing Game](projects/number-guessing-game/)
+- [Snake Water Gun](projects/snake-water-gun/)
 
-* Variables & Data Types
-* Operators & Expressions
-* Conditional Statements
-* Loops
-* Functions
-* Recursion
-* Pointers
-* Arrays
-* Strings
-* Structures
-* File Handling
-* Dynamic Memory Allocation (DMA)
+## Notes
 
----
-
-## 🚀 Purpose
-
-This folder serves as my personal archive for learning C fundamentals and strengthening problem-solving skills. It also acts as a reference for concepts that form the foundation of Data Structures, Algorithms, and Systems Programming.
-
-> Every file represents a step in my learning journey. The code is preserved for revision and to reflect my progress over time.
+- Some files have a mistake **on purpose** to show a common error (like `if (a = 11)` or a `;` after `if`). The comment at the top says so.
+- Run the file I/O programs from inside `chapter-10-file-io/` so they can find their `.txt` files.
+- When compiling programs that use math.h on Linux, link the math library using -lm.

@@ -1,3 +1,6 @@
+// Topic: while loop
+// Prints a line 4 times using a while loop.
+
 #include<stdio.h>
 int main()
 {

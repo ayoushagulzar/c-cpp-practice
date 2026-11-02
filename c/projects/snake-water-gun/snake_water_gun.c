@@ -1,3 +1,7 @@
+// Project: Snake Water Gun
+// A rock-paper-scissors game against the computer. Snake drinks water, water
+// drowns gun, gun shoots snake.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -5,7 +9,7 @@
 int main()
 {
     srand(time(0));
-    int computer = (rand() % 3) + 0, player;
+    int computer = rand() % 3, player;
     /*
     0 --> Snake
     1 --> Water
@@ -13,7 +17,12 @@ int main()
     */
     printf("Choose 0 for Snake, 1 for Water and 2 for Gun\n");
     scanf("%d", &player);
-    printf("Computer choose %d\n", computer);
+    if (player < 0 || player > 2)
+    {
+        printf("Invalid choice!\n");
+        return 1;
+    }
+    printf("Computer chose %d\n", computer);
 
     if (player == 0 && computer == 0)
     {
