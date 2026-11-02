@@ -1,0 +1,64 @@
+// Topic: Constructors in derived classes
+// Passes arguments to base class constructors from the derived constructor.
+// Note: Base constructors run in the order the bases are listed in the class
+//       declaration (Base2, then Base1), not in the initializer list order.
+
+#include <iostream>
+using namespace std;
+
+class Base1
+{
+    int data1;
+
+public:
+    Base1(int i)
+    {
+        data1 = i;
+        cout << "Base1 constructor called! " << endl;
+    }
+    void printDataBase1()
+    {
+        cout << "The value of data1 is " << data1 << endl;
+    }
+};
+class Base2
+{
+    int data2;
+
+public:
+    Base2(int i)
+    {
+        data2 = i;
+        cout << "Base2 constructor called! " << endl;
+    }
+    void printDataBase2()
+    {
+        cout << "The value of data2 is " << data2 << endl;
+    }
+};
+class Derived : public Base2, public Base1
+{
+    int derived1, derived2;
+
+public:
+    Derived(int a, int b, int c, int d) : Base1(a), Base2(b)
+    {
+        derived1 = c;
+        derived2 = d;
+        cout << "Derived constructor called! " << endl;
+    }
+    void printDataDerived()
+    {
+        cout << "The value of derived1 is " << derived1 << endl;
+        cout << "The value of derived2 is " << derived2 << endl;
+    }
+};
+int main()
+{
+    Derived oggy(15, 68, 20, 90);
+    oggy.printDataBase1();
+    oggy.printDataBase2();
+    oggy.printDataDerived();
+
+    return 0;
+}

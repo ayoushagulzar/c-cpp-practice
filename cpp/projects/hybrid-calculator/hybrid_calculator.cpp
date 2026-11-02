@@ -1,8 +1,21 @@
+// Project: Hybrid calculator
+// A menu-driven calculator. Simple mode does + - * / %; scientific mode does
+// trig, inverse trig, exp, pow, sqrt and log. Built with multiple
+// inheritance.
+
+// Note: Colored output uses the Windows console API on Windows and ANSI
+//       escape codes everywhere else.
+
 #include <iostream>
-#include <windows.h>
 #include <cmath>
+#ifdef _WIN32
+#include <windows.h>
+#endif
 using namespace std;
 
+// Color codes follow the Windows console palette:
+// 3 = aqua, 4 = red, 6 = yellow, 7 = white (default).
+#ifdef _WIN32
 void setColor(int color)
 {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
@@ -11,6 +24,25 @@ void setColorError(int color)
 {
     SetConsoleTextAttribute(GetStdHandle(STD_ERROR_HANDLE), color);
 }
+#else
+// On Linux/macOS, use ANSI escape codes instead of the Windows API.
+const char *ansiColor(int color)
+{
+    switch (color)
+    {
+    case 3:
+        return "\033[36m"; // cyan
+    case 4:
+        return "\033[31m"; // red
+    case 6:
+        return "\033[33m"; // yellow
+    default:
+        return "\033[0m"; // reset
+    }
+}
+void setColor(int color) { cout << ansiColor(color); }
+void setColorError(int color) { cerr << ansiColor(color); }
+#endif
 
 class SimpleCalculator
 {

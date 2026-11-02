@@ -1,90 +1,26 @@
 # C++ Programming
 
-Welcome to my C++ practice repository!
+My C++ practice: the code I wrote while following the [CodeWithHarry](https://www.youtube.com/@CodeWithHarry) C++ course. Each file covers one concept, so it works as a quick revision reference.
 
-This folder contains the programs I wrote while learning C++ and Object-Oriented Programming. Each source file focuses on a specific concept, making this folder a quick reference for revision and future learning.
+## Chapters
 
----
+| Chapter | Topics |
+| ------- | ------ |
+| [01 - Basics](chapter-01-basics/) | structures, unions, enums, references, recursion |
+| [02 - Classes & Objects](chapter-02-classes-objects/) | classes, member functions, friend functions and classes |
+| [03 - Constructors & Destructors](chapter-03-constructors-destructors/) | default, parameterized and copy constructors, destructors |
+| [04 - Inheritance](chapter-04-inheritance/) | single, multiple, multilevel, virtual base class |
+| [05 - Pointers](chapter-05-pointers/) | new/delete, pointers to objects, this pointer |
+| [06 - Polymorphism](chapter-06-polymorphism/) | virtual functions, abstract classes |
+| [07 - File I/O](chapter-07-file-io/) | ofstream, ifstream, getline |
+| [08 - Templates](chapter-08-templates/) | class and function templates |
+| [09 - STL](chapter-09-stl/) | vector, list, map, functors |
 
-## 📚 Source
+## Project
 
-- CodeWithHarry – Complete C++ Course
+- [Hybrid Calculator](projects/hybrid-calculator/): simple + scientific calculator built with multiple inheritance
 
----
+## Notes
 
-## 📂 Folder Structure
-
-```
-C++
-│
-├── Project/
-├── abstractClass.cpp
-├── array_pointer.cpp
-├── constructor.cpp
-├── destructor.cpp
-├── inheritance.cpp
-├── recursion.cpp
-├── template.cpp
-├── vector.cpp
-├── ...
-└── README.md
-```
-
----
-
-## 🎯 Topics Covered
-
-### 🔹 Core C++
-
-- Variables & Data Types
-- Functions
-- Recursion
-- Arrays
-- Pointers
-- References
-- Structures
-- Enumerations
-- Dynamic Memory (`new` / `delete`)
-- File Handling
-
-### 🔹 Object-Oriented Programming
-
-- Classes & Objects
-- Constructors
-- Constructor Overloading
-- Copy Constructors
-- Destructor
-- `this` Pointer
-- Friend Functions & Friend Classes
-- Static Members
-- Inheritance
-  - Single
-  - Multiple
-  - Multilevel
-- Virtual Functions
-- Abstract Classes
-- Polymorphism
-
-
----
-
-## 📁 Projects
-
-This folder also contains small C++ projects created during the learning process to apply the concepts covered throughout the course.
-
----
-
-## 🎯 Purpose
-
-This directory serves as my personal C++ learning archive. Rather than storing only final projects, it preserves the individual programs I wrote while exploring each concept.
-
-These programs help me:
-
-- Revise important C++ concepts
-- Strengthen Object-Oriented Programming skills
-- Build a solid foundation for Data Structures & Algorithms
-- Track my learning progress over time
-
----
-
-
+- Many files have notes at the end summarizing the rules of that topic. Useful for quick revision.
+- Run the file I/O programs from inside `chapter-07-file-io/`.
